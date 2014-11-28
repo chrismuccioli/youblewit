@@ -1,0 +1,79 @@
+// Buttons
+
+.button {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: $ui-height;
+  height: auto;
+  min-height: $ui-height;
+  padding-top: $ui-padding;
+  padding-bottom: $ui-padding;
+  padding-left: 2*$ui-padding;
+  padding-right: 2*$ui-padding;
+  letter-spacing: $ls05;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.button a {
+  color: #ffffff;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+}
+
+.button-custom {
+  font-family: $sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: $ui-height;
+  height: auto;
+  min-height: $ui-height;
+  padding-top: $ui-padding;
+  padding-bottom: $ui-padding;
+  letter-spacing: $ls05;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+  h4 {
+    margin-top: 0.3rem;
+  }
+}
+
+.form-button {
+  padding: .5*$ui-padding $ui-padding;
+  line-height: 0;
+}
+
+.button-big {
+  line-height: $ui-height-big;
+  min-height: $ui-height-big;
+  padding: 0 1.5*$ui-padding;
+}
+
+.button-small {
+  line-height: $ui-height-small;
+  min-height: $ui-height-small;
+}

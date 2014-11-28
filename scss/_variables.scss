@@ -1,0 +1,98 @@
+// Variables
+
+// Default whitespace unit
+$space: 1rem !default;
+
+// Typography
+$font-family: "aktiv-grotesk-std", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$line-height: 1.5 !default;
+$line-height-heading: 1.5 !default;
+$lydian-italic: LydianBT-Italic, georgia;
+
+// Mobile Type
+$h1: 3.157em;                 $base-h1-lh: 1.1em;
+$h2: 2.369em;                 $base-h2-lh: 1.2em;
+$h3: 1.777em;                 $base-h3-lh: 1.3em;
+$h4: 1.333em;                 $base-h4-lh: 1.4em;
+$h5: 1em;                     $base-h5-lh: 1.4em;
+$h6: 0.75em;                  $base-h6-lh: 1.4em;
+$p: 1em;                      $base-p-lh: 1.75em;
+$feature-p: 1.2em;            $feature-p-lh: 1.75em;
+
+// Desktop Type
+$responsive-type: true;
+$desktop-h1: 3.157em;         $desktop-h1-lh: 1.1em;
+$desktop-h2: 2.369em;         $desktop-h2-lh: 1.2em;
+$desktop-h3: 1.777em;         $desktop-h3-lh: 1.2em;
+$desktop-h4: 1.333em;         $desktop-h4-lh: 1.4em;
+$desktop-h5: 1em;             $desktop-h5-lh: 1.4em;
+$desktop-h6: .75em;           $desktop-h6-lh: 1.4em;
+$desktop-p: 1em;              $desktop-p-lh: 1.3em;
+$desktop-feature-p: 1.3125rem;  $desktop-feature-p-lh: 1.6em;
+
+// Typography
+$sans-serif-headline: "aktiv-grotesk-std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif: 'Karla', sans-serif;
+$sans-serif-light: "aktiv-grotesk-std", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: "leitura-news", "TimesNewRoman", "Times New Roman", serif;
+
+//line height
+$lh1: 1em;
+$lh2: 1.25em;
+$lh3: 1.5em;
+$lh4: 2em;
+
+// Letter Spacing
+$ls-1: -.1em;
+$ls05: .05em;
+$ls1: .1em;
+$ls1-05: .105;
+$ls2: .2em;
+$ls3: .3em;
+
+// Breakpoints
+$breakpoint-iphone: 580px;
+$breakpoint-mobile: 768px;
+$breakpoint-desktop: 769px !default;
+
+// Heights for buttons, forms, nav, etc.
+$ui-height: 2.25rem !default;
+$ui-height-small: 1.75rem !default;
+$ui-height-big: 3rem !default;
+
+$ui-padding: .75*$space !default;
+
+// Rules
+$rule-height: 5px;
+
+// Grid
+// $grid-max-width: 75rem !default;
+$grid-max-width: 70rem !default;
+$grid-gutter: 2 * $space !default;
+
+// Theme
+$light-gray: #e2e2e2 !default;
+$mid-gray: #a8a8a7 !default;
+$gray: #a8a8a7 !default;
+$dark-gray: #333333 !default;
+$off-black: #111111 !default;
+$black: #000000 !default;
+$off-white: #f7f7f7 !default;
+$white: #ffffff !default;
+$blue: #3b00cc !default;
+$red: #ff0033 !default;
+$yellow: #ffb600 !default;
+$green: #00ffaa !default;
+$orange: #ff3000 !default;
+$purple: #6600FF !default;
+
+// Alpha blacks for UI elements
+$darken-1: rgba(#000,.125) !default;
+$darken-2: rgba(#000,.25) !default;
+$darken-3: rgba(#000,.375) !default;
+
+// Borders
+$border-color: #ccc !default;
+$border-width: 1px !default;
+$border-radius: 0 !default;
+

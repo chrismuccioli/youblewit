@@ -1,0 +1,183 @@
+// Type
+
+// body {
+//   font-family: $font-family;
+//   line-height: $line-height;
+//   font-weight: 400;
+// }
+
+h1, h2, h3, h4, h5, h6, p  {
+  line-height: $line-height-heading;
+  margin-bottom: 5px;
+}
+
+h5, h6 {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+
+// Base Type Scale
+.h1 { font-size: $h1; line-height: $base-h1-lh;}
+.h2 { font-size: $h2; line-height: $base-h2-lh; }
+.h3 { font-size: $h3; line-height: $base-h3-lh; }
+.h4 { font-size: $h4; line-height: $base-h4-lh; }
+.h5 { font-size: $h5; line-height: $base-h5-lh; }
+.h6 { font-size: $h6; line-height: $base-h6-lh; }
+p { font-size: $p; line-height: $base-p-lh; }
+.feature p { font-size: $feature-p; line-height: $feature-p-lh; }
+.mega { font-size : 3.157em; line-height: 1em; }
+
+// Responsive Type Scale
+@media screen and (min-width: $breakpoint-desktop) {
+  .h1 { font-size: $desktop-h1; line-height: $desktop-h1-lh;}
+  .h2 { font-size: $desktop-h2; line-height: $desktop-h2-lh; }
+  .h3 { font-size: $desktop-h3; line-height: $desktop-h3-lh; }
+  .h4 { font-size: $desktop-h4; line-height: $desktop-h4-lh; }
+  .h5 { font-size: $desktop-h5; line-height: $desktop-h5-lh; }
+  .h6 { font-size: $desktop-h6; line-height: $desktop-h6-lh; }
+  p { font-size: $desktop-p; line-height: $desktop-p-lh; letter-spacing: .04em; }
+  .feature p { font-size: $desktop-feature-p; line-height: $desktop-feature-p-lh; letter-spacing: .04em; }
+  .mega { font-size : 4.157em; line-height: 1em; }
+}
+
+// Utilities
+.bold    { font-weight: bold; }
+.regular { font-weight: normal; }
+.italic  { font-style: italic; }
+.caps    { text-transform: uppercase; letter-spacing: .11em; font-weight: 700; }
+
+// Prevent flashing fonts with fontdeck
+// The recommended method flashes the entire body - not sure what the psychological
+// impact of perceived load time is, but my guess is not that much better.
+// Instead this method only hides elements styled with the fonts that are loading
+//.wf-loading body {
+// .wf-loading {
+//   .apercu,
+//   .apercu-medium,
+//   .apercu-bold {
+//     visibility: hidden;
+//   }
+// }
+
+// Alignment
+.left-align   { text-align: left; }
+.center       { text-align: center; }
+.right-align  { text-align: right; }
+.justified    { text-align: justify; }
+
+//line height
+
+.lh1 { line-height: $lh1; }
+.lh2 { line-height: $lh2; }
+.lh3 { line-height: $lh3; }
+.lh3 { line-height: $lh4; }
+
+// Letter Spacing
+
+.ls-1 { letter-spacing: $ls-1; }
+.ls05 { letter-spacing: $ls05;}
+.ls1 { letter-spacing: $ls1;}
+.ls1-05 { letter-spacing: $ls1-05; }
+.ls2 { letter-spacing: $ls2; }
+.ls3 { letter-spacing: $ls3; }
+
+//Typefaces
+body {
+  font-family: $sans-serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+p {
+  font-family: $sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+a {
+  color: $gray;
+  font-family: $sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+        text-size-adjust: none;
+  -webkit-font-smoothing: antialiased !important;
+  &:hover {
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    text-decoration: none;
+  }
+}
+
+.clean-link a {
+  text-decoration: none;
+}
+
+.white-link a {
+  color: $white;
+  &:hover {
+    color: $light-gray
+  }
+}
+
+.feature p, .serif {
+  font-family: $serif !important;
+  font-style: normal !important;
+  font-weight: 300;
+}
+
+.pull-quote h2 {
+  font-family: $serif;
+  font-weight: 300;
+  font-style: italic;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+.sans-serif, .sans-serif-light, .lydian-italic, .lydian, .lydian-bold, .serif {
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+.sans-serif {
+  font-family: $sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headline-type {
+  font-family: $sans-serif-headline;
+  font-weight: 400;
+}
+
+.sans-serif-light {
+  font-family: $sans-serif-light;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lydian-italic {
+  font-family: $lydian-italic;
+  font-weight: lighter;
+}
+
+.lydian {
+  font-family: LydianBT-Roman, georgia;
+  font-weight: normal;
+  letter-spacing: $ls1;
+}
+
+.lydian-bold {
+  font-family: LydianBT-Bold, georgia;
+  font-weight: normal;
+}

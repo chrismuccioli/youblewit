@@ -1,0 +1,77 @@
+// Layout Utilities
+
+.inline       { display: inline; }
+.block        { display: block; }
+.inline-block { display: inline-block; }
+
+.oh    { overflow: hidden; }
+.left  { float: left; }
+.right { float: right; }
+.no-float { float: none; }
+
+.flush {
+  margin-bottom: -0.6rem;
+}
+
+.clearfix {
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+
+.no-hover {
+    &:hover {
+      text-decoration: none;
+      border-bottom: 0px;
+    }
+}
+
+.fit { max-width: 100%; }
+
+.full-width { width: 100%; }
+.half-width { width: 50%; }
+
+.bg-cover { background-size: cover; }
+.bg-contain { background-size: contain; }
+.bg-center { background-position: center center; }
+
+.circle {
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.paralax-image {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.paralax-image-no-crop {
+  background-position: center center;
+  background-size: cover 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+// Responsive states
+@media screen and (max-width: $breakpoint-desktop) {
+  .mobile-show,
+  .mobile-block  { display: block !important; }
+  .mobile-block  { width: 100%; }
+  .mobile-hide   { display: none !important; }
+  .mobile-center { text-align: center; }
+  .mobile-clear { float: none !important;}
+  .paralax-mobile-fill { background-size: fill; }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  .desktop-hide { display: none !important; }
+}
+
+@media all and (max-width: $breakpoint-iphone) {
+  .iphone-hide {
+    display: none;
+  }
+}
