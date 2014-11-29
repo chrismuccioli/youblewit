@@ -20,6 +20,7 @@
   padding-left: 2*$ui-padding;
   padding-right: 2*$ui-padding;
   letter-spacing: $ls05;
+  transition: all 0.3s ease 0s;
   &:hover,
   &:focus {
     text-decoration: none;

@@ -11,19 +11,16 @@
 
 
 @import "variables";
-
 @import "reset";
-
 @import "type";
 @import "margins";
 @import "padding";
 @import "utilities";
 @import "forms";
 @import "lists";
+@import "theme";
 @import "positions";
 @import "tables";
-@import "issue";
-@import "player";
 @import "animations";
 
 // Components
@@ -31,12 +28,9 @@
 @import "grid";
 @import "table-object";
 @import "nav";
-@import "lydian";
-@import "ss-social";
 
 
 // Thematic styles
-@import "theme";
 @import "colors";
 @import "borders";
 

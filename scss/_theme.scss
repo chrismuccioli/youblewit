@@ -1,249 +1,137 @@
-// Base thematic styles
-
-
-/* Wrap entire feature in this to apply styles */
-.feature {
-  color: $black;
-  background-color: $white;
-}
-
 body {
-  color: $gray;
-  background-color: $off-black;
-}
-
-.link-light-gray {
-  color: $light-gray;
-  text-decoration: underline;
-  &:hover {
-    color: darken($light-gray, 10%);
-    text-decoration: none;
-  }
-}
-
-.alert-plus {
-  margin-bottom: -5px;
-  padding-top: 20px;
-  // background-image: url(../journal/woodsman/images/woodsman-header.jpg);
-}
-
-.alert {
-  margin-bottom: -5px;
-}
-
-.transition-top {
-  transition: top .15s ease-out;
-}
-
-.rule {
-  height: $rule-height;
-}
-
-.alert-image {
-  padding-right: 50px;
-}
-
-.issue-title .rule {
-  width: 100%;
-  height: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.issue-title-box {
-  border: 8px solid white;
-  width: 64%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15%;
-  padding-bottom: 15%;
-}
-
-.site-footer a {
-  margin-right: 30px;
-}
-
-.site-footer li, .social-footer li {
-    display: inline;
-}
-
-.site-footer ul , .social-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.social-footer {
-  font-size: $h6;
-}
-
-.social-footer a {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-
-/*issue footer*/
-
-.issue-footer a {
-  color: $dark-gray;
-}
-
-/*For Testing*/
-.border {
-  border: 5px solid red;
-}
-
-// RSS Feed
-
-.rss-feed {
-  margin-top: -45px;
-  margin-right: -20px;
-}
-
-.feedEkList {
-  list-style: none;
-  margin-left: -50px;
-}
-
-.itemContainer {
-  padding-bottom: 66.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
-}
-
-.itemContent img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.itemTitle {
-  padding: 20px;
-  color: #fff;
-  transition-duration: .2s;
-  transition-timing-function: ease;
-  transition-property: box-shadow , background-color;
-  &:hover,
-  &:focus {
-    outline: none;
-    background-color: darken($light-gray, 20%);
-  }
-}
-
-.itemContent p {
-  display: none;
-}
-
-
-.recent-posts {
-  box-sizing: border-box;
-  padding-right: 0;
-  padding-left: 0;
-  border-right-style: solid;
-  border-width: 20px;
-  border-color: $light-gray;
-}
-
-// Featured Issue
-
-.issue-label {
-  float: right;
-  overflow: hidden;
-}
-
-.featured-content  {
-  height: 439px;
-  .border {
-    border-width: 2px;
-    border-color: $dark-gray;
-  }
-}
-
-//Issues
-
-.issue-meta {
-  padding-right: 0rem;
-  padding-left: 0rem;
-  padding-top: 0.79rem;
-  padding-bottom: 0.65rem;
-  height: auto;
-
-}
-
-.archive {
-  margin-left: -2.5rem;
-}
-
-.archive li {
-  float: left;
-  display: inline;
-  padding-right: .5rem;
-}
-
-
-//Subscription
-
-.subscription {
-  background: url(../images/subscription.jpg) no-repeat;
+  background: url(/images/bg-2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 90%;
-  background-position: center center;
-  background-color: #ddd8d3;
-  .logo {
-    width: 150px;
+  background-size: cover;
+  background-color: $dark-blue;
+}
+
+.show-info {
+  color: $dark-blue;
+  padding-top: $ui-padding;
+  padding-bottom: $ui-padding;
+  border-bottom: 1px solid $dark-blue;
+}
+
+.flyer-header {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+.show-info h5 {
+  padding-top: 15px;
+}
+
+.footer img {
+  padding-top: 20px;
+}
+
+.show-info h4 {
+  padding-top: 10px;
+}
+
+.ticket-button {
+  color: $dark-blue;
+  text-transform: uppercase;
+  border: 3px solid $dark-blue;
+  transition: all .5s ease 0s;
+  border-radius: 5px;
+  &:hover {
+    color: $white;
+    border-color: $white;
+    transition: all .5s ease 0s;
+  }
+  &:focus {}
+}
+
+.content-section {
+  border-top: 40px solid $dark-blue;
+}
+
+.illustration-overlay {
+  background: url(/images/youblewit-illustration1.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center top;
+  height: 1500px;
+  z-index: 2000;
+  margin-top: -1290px;
+}
+
+.ticket-button {
+  letter-spacing: .2em;
+}
+
+.sponsors img {
+  max-width: 70%;
+}
+
+// .ticket-link {
+//   display: none;
+// }
+
+.spacer {
+  height: 900px;
+  background: $yellow;
+}
+
+.ticket-coming-soon {
+  display: none;
+}
+
+.bg-pattern {
+  // background-image: url(/images/bg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.show-list {
+  max-width: 60rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 350px;
+  background: $yellow;
+  border-radius: 5px;
+}
+
+.table-light {
+  th, td {
+    border-bottom: 1px solid $border-color;
+    text-align: left;
   }
 }
 
-.nav-logo {
-  max-width: 150px;
+@media screen and (max-width: 2200px) {
+  .illustration-overlay {
+    margin-top: -1240px;
+  }
 }
 
-.mail-club h5 {
-  max-width: 300px;
+@media screen and (max-width: 2050px) {
+  .illustration-overlay {
+    margin-top: -1120px;
+  }
 }
 
-// Mobile Styling
 @media screen and (max-width: $breakpoint-mobile) {
-  .rss-feed-spacer {
-    display: none;
+  .ticket-button {
+  letter-spacing: .1em;
+  margin-top: 14px;
   }
 
-  .rss-feed {
-    margin-right: 0px;
+  .show-list {
+    margin-top: 266px;
   }
 
-  .feedEkList {
-    margin-right: -20px;
-  }
-
-  .featured-content {
-    height: auto;
-  }
-
-  .alert-image {
-  padding-right: 0px;
-  }
-
-  .social-footer a {
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-
-  .site-footer a {
-    margin-right: 0px;
-  }
-
-  .site-footer svg {
-    padding-bottom: 20px;
-  }
-  .site-footer li {
-      display: block;
-      text-align: center;
-      margin-top: 5px;
-      margin-bottom: 5px;
-  }
+  .footer img {
+    width: 50%;
+}
 
 }

@@ -1,10 +1,13 @@
 // Button Themes
 
-.button {
+.button-table {
   border-radius: $border-radius;
   transition-duration: .2s;
   transition-timing-function: ease;
   transition-property: box-shadow , background-color;
+  text-align: center;
+  padding-top: $ui-padding;
+  padding-bottom: $ui-padding;
   &:focus {
     outline: none;
     box-shadow: 0 0 0 2px #fff, 0 0 1px 4px rgba($blue, .5);
@@ -20,6 +23,20 @@
   &:hover {
     color: #fff;
     background-color: darken($blue, 20%);
+  }
+}
+
+.button p {
+  margin-bottom: 0 !important;
+}
+
+
+.button-yellow {
+  color: #fff;
+  background-color: $yellow;
+  &:hover {
+    color: #fff;
+    background-color: darken($yellow, 20%);
   }
 }
 
@@ -42,6 +59,16 @@
   }
 }
 
+.button-dark-blue {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: $dark-blue;
+  &:hover {
+    color: #fff;
+    background-color: darken($dark-blue, 20%);
+  }
+}
+
 .button-highlight {
   color: #fff;
   text-transform: uppercase;
@@ -59,12 +86,15 @@
 }
 
 .button-white {
-  color: $purple;
+  color: $dark-blue;
   text-transform: uppercase;
-  background-color: $white;
+  border: 3px solid $dark-blue;
+  letter-spacing: .5em;
+  transition: all .5s ease 0s;
   &:hover {
-    color: $purple;
-    background-color: $light-gray;
+    color: $white;
+    border-color: $white;
+    transition: all .5s ease 0s;
   }
   &:focus {}
 }

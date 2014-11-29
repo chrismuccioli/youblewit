@@ -9,32 +9,50 @@ $line-height: 1.5 !default;
 $line-height-heading: 1.5 !default;
 $lydian-italic: LydianBT-Italic, georgia;
 
+// // Mobile Type
+// $h1: 2.75em;                 $base-h1-lh: 1.1em;
+// $h2: 2.369em;                 $base-h2-lh: 1.2em;
+// $h3: 1.777em;                 $base-h3-lh: 1.3em;
+// $h4: 1.2em;                 $base-h4-lh: 1.4em;
+// $h5: 1em;                     $base-h5-lh: 1.4em;
+// $h6: 0.75em;                  $base-h6-lh: 1.4em;
+// $p: 1em;                      $base-p-lh: 1.75em;
+// $feature-p: 1.2em;            $feature-p-lh: 1.75em;
+
+// // Desktop Type
+// $responsive-type: true;
+// $desktop-h1: 5em;         $desktop-h1-lh: 1.1em;
+// $desktop-h2: 2.369em;         $desktop-h2-lh: 1.2em;
+// $desktop-h3: 1.777em;         $desktop-h3-lh: 1.2em;
+// $desktop-h4: 1.2em;         $desktop-h4-lh: 1.4em;
+// $desktop-h5: 1em;             $desktop-h5-lh: 1.4em;
+// $desktop-h6: .75em;           $desktop-h6-lh: 1.4em;
+// $desktop-p: 1em;              $desktop-p-lh: 1.3em;
+// $desktop-feature-p: 1.3125rem;  $desktop-feature-p-lh: 1.6em;
+
 // Mobile Type
-$h1: 3.157em;                 $base-h1-lh: 1.1em;
-$h2: 2.369em;                 $base-h2-lh: 1.2em;
-$h3: 1.777em;                 $base-h3-lh: 1.3em;
-$h4: 1.333em;                 $base-h4-lh: 1.4em;
+$h1: 2.75em;                 $base-h1-lh: 1.1em;
+$h2: 2.074em;                 $base-h2-lh: 1.2em;
+$h3: 1.728em;                 $base-h3-lh: 1.3em;
+$h4: 1.2em;                 $base-h4-lh: 1.4em;
 $h5: 1em;                     $base-h5-lh: 1.4em;
-$h6: 0.75em;                  $base-h6-lh: 1.4em;
+$h6: .83em;                  $base-h6-lh: 1.4em;
 $p: 1em;                      $base-p-lh: 1.75em;
 $feature-p: 1.2em;            $feature-p-lh: 1.75em;
 
 // Desktop Type
 $responsive-type: true;
-$desktop-h1: 3.157em;         $desktop-h1-lh: 1.1em;
-$desktop-h2: 2.369em;         $desktop-h2-lh: 1.2em;
-$desktop-h3: 1.777em;         $desktop-h3-lh: 1.2em;
-$desktop-h4: 1.333em;         $desktop-h4-lh: 1.4em;
+$desktop-h1: 5em;         $desktop-h1-lh: 1.1em;
+$desktop-h2: 1.728em;         $desktop-h2-lh: 1.2em;
+$desktop-h3: 1.44em;         $desktop-h3-lh: 1.2em;
+$desktop-h4: 1.2em;         $desktop-h4-lh: 1.4em;
 $desktop-h5: 1em;             $desktop-h5-lh: 1.4em;
-$desktop-h6: .75em;           $desktop-h6-lh: 1.4em;
+$desktop-h6: .83em;           $desktop-h6-lh: 1.4em;
 $desktop-p: 1em;              $desktop-p-lh: 1.3em;
-$desktop-feature-p: 1.3125rem;  $desktop-feature-p-lh: 1.6em;
 
 // Typography
-$sans-serif-headline: "aktiv-grotesk-std", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif: 'Karla', sans-serif;
-$sans-serif-light: "aktiv-grotesk-std", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif: "leitura-news", "TimesNewRoman", "Times New Roman", serif;
+$sans-serif: 'Raleway', sans-serif;
+$sans-serif-light: 'Raleway', sans-serif;
 
 //line height
 $lh1: 1em;
@@ -67,7 +85,7 @@ $rule-height: 5px;
 
 // Grid
 // $grid-max-width: 75rem !default;
-$grid-max-width: 70rem !default;
+$grid-max-width: 60rem !default;
 $grid-gutter: 2 * $space !default;
 
 // Theme
@@ -79,12 +97,13 @@ $off-black: #111111 !default;
 $black: #000000 !default;
 $off-white: #f7f7f7 !default;
 $white: #ffffff !default;
-$blue: #3b00cc !default;
+$blue: #38a7d0 !default;
 $red: #ff0033 !default;
-$yellow: #ffb600 !default;
+$yellow: #fedf4e !default;
 $green: #00ffaa !default;
 $orange: #ff3000 !default;
 $purple: #6600FF !default;
+$dark-blue: #064367 !default;
 
 // Alpha blacks for UI elements
 $darken-1: rgba(#000,.125) !default;
