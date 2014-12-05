@@ -1,9 +1,9 @@
 name: 'You Blew It'
 
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
 
 # Use this for gh-pages
 # url: "http://chrismuccioli.github.io/singles-club"
 
 # # Use this for production
-# url: "http://singlesclub.fm"
+url: "http://youblewitfl.com"

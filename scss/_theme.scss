@@ -83,6 +83,10 @@ body {
 }
 
 .ticket-coming-soon {
+  color: $dark-blue !important;
+}
+
+.ticket-coming-soon {
   display: none;
 }
 
@@ -132,6 +136,10 @@ body {
 
   .footer img {
     width: 50%;
+}
+
+.sponsors img {
+  max-width: 40%;
 }
 
 }
